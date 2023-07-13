@@ -26,5 +26,5 @@ def rename_file_name(files_list: list, final_name: str, count: int, orig_extensi
 
 
 if __name__ == '__main__':
-    files_list = ['testqwerty.txt', 'dataqwerty.txt', 'exampleqwerty.pdf']
+    files_list = ['test.txt', 'data.txt', 'example.pdf']
     rename_file_name(files_list, "_TEST_", 3, "txt", "md", [1, 4])
